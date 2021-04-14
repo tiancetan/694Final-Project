@@ -7,7 +7,8 @@ Data description:
 
 Source: UCI 
 
-https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+from+Continuous+Ambient+Sensor+Data
+https://archive.ics.uci.edu/ml/da![Uploading Screen Shot 2021-04-14 at 11.17.26 AM.png…]()
+tasets/Human+Activity+Recognition+from+Continuous+Ambient+Sensor+Data
 
 - Data are collected by sensors continuously while residents perform their normal routines.
 
@@ -33,7 +34,7 @@ Compare different hyperparameters’ performance
 
 __S3 -> EMR(preprocessing) -> S3(data storage) -> EMR(Modeling)__
 
-__Data preprocessing algorithm details__
+## Data preprocessing algorithm details
 
 - Dropped null/missing values
 - Vectorized feature columns
