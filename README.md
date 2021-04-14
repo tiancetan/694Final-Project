@@ -5,6 +5,19 @@
 
 Data description:
 
+- Data Set Characteristics: Multivariate, Sequential, Time-Series
+- This dataset represents ambient data collected in homes with volunteer residents.
+Data are collected continuously while residents perform their normal routines.
+Ambient PIR motion sensors, door/temperature sensors, and light switch sensors
+are placed throughout the home of the volunteer. The sensors are placed in locations
+throughout the home that are related to specific activites of daily living that we
+wish to capture.
+- The classification task is to predict the activity that is occurring in the smart
+home and being observed by the ambient sensors. The sensors communicate using the
+ZigBee Pro protocol, forming a mesh network with all battery powered sensors as leaf
+nodes and always-on devices (light switches and ZigBee relays) forming the branches
+that connect back to the USB gateway on our local SHiB server.
+
 Source: UCI 
 
 https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+from+Continuous+Ambient+Sensor+Data
