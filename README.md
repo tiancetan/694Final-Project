@@ -4,7 +4,7 @@
 ## Intro of the project
 
 Data description:
-
+- Source: [UCI](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+from+Continuous+Ambient+Sensor+Data) 
 - Data Set Characteristics: Multivariate, Sequential, Time-Series
 - This dataset represents ambient data collected in homes with volunteer residents.
 Data are collected continuously while residents perform their normal routines.
@@ -18,16 +18,9 @@ ZigBee Pro protocol, forming a mesh network with all battery powered sensors as 
 nodes and always-on devices (light switches and ZigBee relays) forming the branches
 that connect back to the USB gateway on our local SHiB server.
 
-Source: UCI 
-
-https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+from+Continuous+Ambient+Sensor+Data
-
 - Data are collected by sensors continuously while residents perform their normal routines.
-
 - the dataset is about 54.34 GB
-
 - 37 attributes
-
 - Multi-classification(45 classes)
 
 __Analytics Goal/Novelty:__
