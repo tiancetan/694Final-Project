@@ -23,7 +23,7 @@ that connect back to the USB gateway on our local SHiB server.
 - 37 attributes
 - Multi-classification(45 classes)
 
-__Analytics Goal/Novelty:__
+### Analytics Goal/Novelty:
 
 Compare ML models’ performance by f1 scores
 
