@@ -17,19 +17,15 @@ the dataset is about 54.34 GB
 
 Multi-classification(45 classes)
 
-__Analytics Goal/Novelty:
+__Analytics Goal/Novelty:__
 
 Compare ML models’ performance by f1 scores
 
 - Random Forest
-
-Logistic Regression (OnevsRest)
-
-XGBoost
-
-Deeplearning
-
-Multi-Layer-Perception
+- Logistic Regression (OnevsRest)
+- XGBoost
+- Deeplearning
+- Multi-Layer-Perception
 
 Compare different hyperparameters’ performance
 
