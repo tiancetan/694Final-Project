@@ -1,9 +1,9 @@
 # Final-Project
-# Human Activity Recognition from Continuous Ambient Sensor Data
+## Human Activity Recognition from Continuous Ambient Sensor Data
 
-## Intro of the project
+### Intro of the project
 
-Data description:
+__Data description:__
 - Source: [UCI](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+from+Continuous+Ambient+Sensor+Data) 
 - Data Set Characteristics: Multivariate, Sequential, Time-Series
 - This dataset represents ambient data collected in homes with volunteer residents.
@@ -35,11 +35,11 @@ Compare ML models’ performance by f1 scores
 
 Compare different hyperparameters’ performance
 
-## Data Pipeline
+### Data Pipeline
 
 __S3 -> EMR(preprocessing) -> S3(data storage) -> EMR(Modeling)__
 
-## Data preprocessing algorithm details
+### Data preprocessing algorithm details
 
 - Dropped null/missing values
 - Vectorized feature columns
@@ -48,7 +48,7 @@ __S3 -> EMR(preprocessing) -> S3(data storage) -> EMR(Modeling)__
 - Normalize data
 - Apply PCA to reduce data dimensions
 
-## Result
+### Result
 
 <img width="727" alt="Screen Shot 2021-04-14 at 11 15 53 AM" src="https://user-images.githubusercontent.com/69778068/114743947-c9782b00-9d12-11eb-867c-5ded86da2a60.png">
 
